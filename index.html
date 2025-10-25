@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta Tags SEO Básicos -->
+    <title>Tecno Redes Sinú - Servicio Técnico y Venta de Computadores en Lorica, Córdoba</title>
+    <meta name="description" content="Expertos en mantenimiento, reparación y venta de computadores en Lorica, Córdoba. Servicio técnico 24/7, garantía 100% y soporte profesional para tu hogar o empresa.">
+    <meta name="keywords" content="servicio técnico computadores, venta computadores Lorica, mantenimiento computadores, reparación PC, Tecno Redes Sinú, tecnología Córdoba">
+    <meta name="author" content="Tecno Redes Sinú">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Tecno Redes Sinú - Servicio Técnico y Venta de Computadores">
+    <meta property="og:description" content="Expertos en mantenimiento, reparación y venta de computadores en Lorica, Córdoba. Servicio técnico profesional con garantía.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tecnoredessinu.netlify.app">
+    <meta property="og:image" content="https://tecnoredessinu.netlify.app/icon/og-image.jpg">
+    <meta property="og:site_name" content="Tecno Redes Sinú">
+    <meta property="og:locale" content="es_CO">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tecno Redes Sinú - Servicio Técnico y Venta de Computadores">
+    <meta name="twitter:description" content="Expertos en mantenimiento, reparación y venta de computadores en Lorica, Córdoba.">
+    <meta name="twitter:image" content="https://tecnoredessinu.netlify.app/icon/twitter-image.jpg">
+    <meta name="twitter:site" content="@tecnoredessinu">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Tecno Redes Sinú",
+        "description": "Servicio técnico especializado en mantenimiento, reparación y venta de computadores en Lorica, Córdoba",
+        "url": "https://tecnoredessinu.netlify.app",
+        "telephone": "+57-304-441-3402",
+        "email": "tecnoredessinu@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Carrera 22 #8-8, Barrio Arenal",
+            "addressLocality": "Lorica",
+            "addressRegion": "Córdoba",
+            "addressCountry": "CO"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "9.2368",
+            "longitude": "-75.8135"
+        },
+        "openingHours": [
+            "Mo-Sa 08:00-18:00"
+        ],
+        "priceRange": "$$",
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "9.2368",
+                "longitude": "-75.8135"
+            },
+            "geoRadius": "50000"
+        },
+        "sameAs": [
+            "https://www.facebook.com/tecnoredessinu/",
+            "https://www.instagram.com/tecno_redessinu/",
+            "https://youtube.com/@tecnoredessinu",
+            "https://tiktok.com/@tecnoredessinu"
+        ]
+    }
+    </script>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://tecnoredessinu.netlify.app">
+    
+    <!-- Favicon y Apple Touch Icons -->
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+    <link rel="manifest" href="/icon/site.webmanifest">
+
+    
+    <!-- Preconnect para mejorar performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.postimg.cc">
+    
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" as="style">
+    
+    <!-- Hreflang para internacionalización -->
+    <link rel="alternate" hreflang="es" href="https://tecnoredessinu.netlify.app">
+    <link rel="alternate" hreflang="es-CO" href="https://tecnoredessinu.netlify.app">
+    <link rel="alternate" hreflang="x-default" href="https://tecnoredessinu.netlify.app">
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="//cdn.tailwindcss.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tech-blue': '#0066CC',
+                        'tech-cyan': '#00BFFF',
+                        'dark-bg': '#0F0F0F',
+                        'dark-card': '#1A1A1A'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark-bg text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-dark-bg/95 backdrop-blur-sm border-b border-tech-cyan/30 shadow-2xl">
+        <div class="container mx-auto px-4 sm:px-6 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo y Nombre -->
+                <div class="flex items-center space-x-2 sm:space-x-4 cursor-pointer" onclick="window.location.href='#inicio'">
+                    <div class="w-10 h-10 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center shadow-lg overflow-hidden">
+                        <img src="https://i.postimg.cc/MHFnQjtZ/.-removebg-preview.png" alt="Tecno Redes Logo" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="w-full h-full tech-gradient rounded-2xl flex items-center justify-center shadow-lg" style="display: none;">
+                            <svg class="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20,18C20.5,18 21,17.5 21,17V7C21,6.5 20.5,6 20,6H4C3.5,6 3,6.5 3,7V17C3,17.5 3.5,18 4,18H9V19H8V21H16V19H15V18H20M5,8H19V16H5V8Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="h-6 sm:h-8 md:h-10 lg:h-12 flex items-center justify-center">
+                        <img src="https://i.postimg.cc/FRcvZk9H/.-removebg-preview.png" alt="Tecno Redes Logo" class="h-full w-auto object-contain max-w-[120px] sm:max-w-[150px] md:max-w-[180px] lg:max-w-[200px]" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="h-full px-3 sm:px-4 tech-gradient rounded-xl flex items-center justify-center shadow-lg" style="display: none;">
+                            <span class="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-white font-orbitron tracking-wider">TECNO REDES SINÚ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Desktop -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="#inicio" class="nav-link font-orbitron text-sm font-medium tracking-wide hover:text-tech-cyan transition-all duration-300 px-3 py-2 rounded-lg hover:bg-tech-cyan/10">
+                        INICIO
+                    </a>
+                    <a href="#galeria" class="nav-link font-orbitron text-sm font-medium tracking-wide hover:text-tech-cyan transition-all duration-300 px-3 py-2 rounded-lg hover:bg-tech-cyan/10">
+                        SERVICIOS
+                    </a>
+                    <a href="#productos" class="nav-link font-orbitron text-sm font-medium tracking-wide hover:text-tech-cyan transition-all duration-300 px-3 py-2 rounded-lg hover:bg-tech-cyan/10">
+                        PRODUCTOS
+                    </a>
+                </div>
+
+                <!-- CTA Button Desktop -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-full font-bold font-orbitron text-sm transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-green-500/30 flex items-center space-x-2">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                        </svg>
+                        <span>CONTACTAR</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="lg:hidden text-tech-cyan hover:text-white transition-colors duration-300 p-2 rounded-lg hover:bg-tech-cyan/20">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="lg:hidden hidden mt-6 pb-4 border-t border-tech-cyan/20">
+                <div class="flex flex-col space-y-1 mt-4">
+                    <a href="#inicio" class="block py-3 px-4 nav-link font-orbitron text-sm font-medium tracking-wide hover:text-tech-cyan hover:bg-tech-cyan/10 rounded-lg transition-all duration-300">
+                        INICIO
+                    </a>
+                    <a href="#galeria" class="block py-3 px-4 nav-link font-orbitron text-sm font-medium tracking-wide hover:text-tech-cyan hover:bg-tech-cyan/10 rounded-lg transition-all duration-300">
+                        SERVICIOS
+                    </a>
+                    <a href="#productos" class="block py-3 px-4 nav-link font-orbitron text-sm font-medium tracking-wide hover:text-tech-cyan hover:bg-tech-cyan/10 rounded-lg transition-all duration-300">
+                        PRODUCTOS
+                    </a>
+
+                    <div class="pt-4 px-4">
+                        <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="w-full bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-bold font-orbitron text-sm transition-all duration-300 flex items-center justify-center space-x-2">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                            </svg>
+                            <span>CONTACTAR AHORA</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="min-h-full bg-gradient-to-br from-dark-bg via-gray-900 to-dark-bg flex items-center justify-center pt-20 sm:pt-24 pb-12 sm:pb-16 lg:pb-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-5xl mx-auto">
+                <!-- Logo Principal -->
+                <div class="mb-8 sm:mb-12 flex justify-center">
+                    <div class="relative">
+                        <div class="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 mx-auto mb-6 sm:mb-8 pulse-animation">
+                            <img src="https://i.postimg.cc/MHFnQjtZ/.-removebg-preview.png" alt="Tecno Redes Logo" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="w-full h-full tech-gradient rounded-full flex items-center justify-center shadow-2xl" style="display: none;">
+                                <svg class="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20,18C20.5,18 21,17.5 21,17V7C21,6.5 20.5,6 20,6H4C3.5,6 3,6.5 3,7V17C3,17.5 3.5,18 4,18H9V19H8V21H16V19H15V18H20M5,8H19V16H5V8Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="absolute inset-0 bg-tech-cyan/20 rounded-full blur-xl animate-pulse"></div>
+                    </div>
+                </div>
+
+                <!-- Título Principal -->
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 lg:mb-8 glow-text font-orbitron leading-tight">
+                    TECNO REDES SINÚ
+                </h1>
+                
+                <!-- Subtítulo -->
+                <p class="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-300 mb-6 sm:mb-8 lg:mb-12 font-light max-w-4xl mx-auto px-4">
+                    Expertos en <span class="text-tech-cyan font-semibold">Mantenimiento</span>, 
+                    <span class="text-tech-cyan font-semibold">Reparación</span> y 
+                    <span class="text-tech-cyan font-semibold">Venta</span> de Computadores
+                </p>
+
+                <!-- Descripción -->
+                <p class="text-sm sm:text-base lg:text-lg text-gray-400 mb-8 sm:mb-10 lg:mb-12 max-w-3xl mx-auto leading-relaxed px-4">
+                    Tecno Redes Sinú es una empresa que se enfoca en la venta y mantenimiento de equipos de computación, redes y tecnología de vanguardia en la región del Sinú. Nuestra misión es ser el proveedor líder de soluciones tecnológicas en la región del bajo Sinú..
+                </p>
+
+                <!-- Botones CTA -->
+                <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center px-4">
+                    <a href="https://wa.me/573001234567?text=Hola%20Tecno%20Redes,%20necesito%20servicio%20técnico" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold font-orbitron text-sm sm:text-base transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-green-500/30 flex items-center justify-center space-x-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                        </svg>
+                        <span>SERVICIO TÉCNICO</span>
+                    </a>
+                    
+                    <a href="#productos" class="w-full sm:w-auto bg-tech-blue hover:bg-tech-cyan text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold font-orbitron text-sm sm:text-base transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-tech-blue/30 flex items-center justify-center space-x-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20,18C20.5,18 21,17.5 21,17V7C21,6.5 20.5,6 20,6H4C3.5,6 3,6.5 3,7V17C3,17.5 3.5,18 4,18H9V19H8V21H16V19H15V18H20M5,8H19V16H5V8Z"/>
+                        </svg>
+                        <span>VER PRODUCTOS</span>
+                    </a>
+                </div>
+
+                <!-- Stats -->
+                <div class="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mt-12 sm:mt-16 lg:mt-20 max-w-2xl mx-auto">
+                    <div class="text-center p-4 sm:p-6 bg-dark-card/50 rounded-xl border border-tech-cyan/20 backdrop-blur-sm">
+                        <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-tech-cyan font-orbitron mb-1 sm:mb-2">24/7</div>
+                        <div class="text-xs sm:text-sm text-gray-400 font-orbitron">Soporte Técnico</div>
+                    </div>
+                    <div class="text-center p-4 sm:p-6 bg-dark-card/50 rounded-xl border border-tech-cyan/20 backdrop-blur-sm">
+                        <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-tech-cyan font-orbitron mb-1 sm:mb-2">100%</div>
+                        <div class="text-xs sm:text-sm text-gray-400 font-orbitron">Garantía</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section id="galeria" class="py-12 sm:py-16 lg:py-20 bg-dark-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 glow-text font-orbitron">NUESTROS SERVICIOS</h2>
+                <p class="text-sm sm:text-base lg:text-lg text-gray-300 max-w-xs sm:max-w-2xl lg:max-w-4xl mx-auto text-justify leading-relaxed px-2 sm:px-4">Ofrecemos soluciones tecnológicas integrales para tu hogar o empresa. Nos especializamos en reparación y mantenimiento de computadores e impresoras, además de brindar soporte y asesoría para todas tus necesidades tecnológicas.</p>
+            </div>
+            
+            <div id="servicios-container" class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 lg:gap-6">
+                <!-- Los servicios se cargarán dinámicamente desde Google Sheets -->
+                <div class="col-span-full text-center py-8">
+                    <div class="inline-flex items-center space-x-2 text-tech-cyan">
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        </svg>
+                        <span class="font-orbitron text-xs sm:text-sm">Cargando...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Section -->
+    <section id="productos" class="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-dark-bg via-gray-900 to-dark-bg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 glow-text font-orbitron">PRODUCTOS EN VENTA</h2>
+                <p class="text-sm sm:text-base lg:text-lg text-gray-300 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto mb-4 sm:mb-6 px-2 sm:px-4">
+                    Computadores nuevos y usados con garantía y soporte técnico incluido
+                </p>
+                
+
+            <!-- Filtros Nuevo/Usado -->
+            <div class="flex justify-center mb-8 sm:mb-12 px-4">
+                <div class="bg-dark-card rounded-full p-1 border border-tech-cyan/30 flex w-full max-w-sm sm:max-w-none sm:w-auto">
+                    <button id="filter-all" class="flex-1 sm:flex-none px-3 sm:px-6 md:px-8 py-2 rounded-full font-orbitron text-xs sm:text-sm font-medium transition-all duration-300 bg-tech-cyan text-black">
+                        TODOS
+                    </button>
+                    <button id="filter-nuevo" class="flex-1 sm:flex-none px-3 sm:px-6 md:px-8 py-2 rounded-full font-orbitron text-xs sm:text-sm font-medium transition-all duration-300 text-gray-300 hover:text-tech-cyan">
+                        NUEVOS
+                    </button>
+                    <button id="filter-usado" class="flex-1 sm:flex-none px-3 sm:px-6 md:px-8 py-2 rounded-full font-orbitron text-xs sm:text-sm font-medium transition-all duration-300 text-gray-300 hover:text-tech-cyan">
+                        USADOS
+                    </button>
+                </div>
+            </div>
+            
+            <div id="productos-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 max-w-7xl mx-auto">
+                <!-- Los productos se cargarán dinámicamente desde Google Sheets -->
+                <div class="col-span-full text-center py-8">
+                    <div class="inline-flex items-center space-x-2 text-tech-cyan">
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                        </svg>
+                        <span class="font-orbitron text-xs sm:text-sm">Cargando...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Producto -->
+    <div id="productModal" class="modal fixed inset-0 bg-black/95 z-50 items-center justify-center p-2 sm:p-4">
+        <div class="bg-dark-card rounded-xl sm:rounded-2xl border border-tech-cyan/30 w-full max-w-sm sm:max-w-lg lg:max-w-2xl relative max-h-[90vh] overflow-y-auto">
+            <button onclick="closeProductModal()" class="absolute top-2 right-2 sm:top-4 sm:right-4 z-10 w-8 h-8 sm:w-10 sm:h-10 bg-tech-cyan text-black rounded-full flex items-center justify-center hover:bg-white transition-all duration-300">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+            
+            <div class="p-4 sm:p-6">
+                <!-- Imagen del producto -->
+                <div class="rounded-lg sm:rounded-xl mb-3 sm:mb-4 overflow-hidden" style="aspect-ratio: 16/11.44;">
+                    <img id="productModalImage" src="" alt="" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-full h-full bg-gradient-to-br from-tech-blue/20 to-tech-cyan/20 rounded-lg sm:rounded-xl flex items-center justify-center" style="display: none;">
+                        <div id="productIcon" class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 tech-gradient rounded-full flex items-center justify-center">
+                            <!-- Icono se actualiza dinámicamente -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <h3 id="productTitle" class="text-lg sm:text-xl lg:text-2xl font-bold text-tech-cyan glow-text font-orbitron mb-2"></h3>
+                    <p id="productDescription" class="text-gray-300 text-xs sm:text-sm mb-3 px-2"></p>
+                    <div id="productPrice" class="text-xl sm:text-2xl lg:text-3xl font-bold text-tech-cyan font-orbitron"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Galería -->
+    <div id="galleryModal" class="modal fixed inset-0 bg-black/95 z-50 items-center justify-center p-2 sm:p-4">
+        <div class="bg-dark-card rounded-xl sm:rounded-2xl border border-tech-cyan/30 w-full max-w-sm sm:max-w-lg lg:max-w-2xl relative max-h-[90vh] overflow-y-auto">
+            <button onclick="closeGalleryModal()" class="absolute top-2 right-2 sm:top-4 sm:right-4 z-10 w-8 h-8 sm:w-10 sm:h-10 bg-tech-cyan text-black rounded-full flex items-center justify-center hover:bg-white transition-all duration-300">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+
+            <!-- Botón Anterior -->
+            <button id="prevServiceBtn" onclick="navigateService(-1)" class="absolute left-1 sm:left-2 lg:left-4 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 bg-gray-600/30 hover:bg-gray-500 text-gray-400 hover:text-white rounded-full flex items-center justify-center transition-all duration-300 border border-gray-500/50">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/>
+                </svg>
+            </button>
+
+            <!-- Botón Siguiente -->
+            <button id="nextServiceBtn" onclick="navigateService(1)" class="absolute right-1 sm:right-2 lg:right-4 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 bg-gray-600/30 hover:bg-gray-500 text-gray-400 hover:text-white rounded-full flex items-center justify-center transition-all duration-300 border border-gray-500/50">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/>
+                </svg>
+            </button>
+            
+            <div class="p-4 sm:p-6">
+                <div class="aspect-video rounded-lg sm:rounded-xl mb-3 sm:mb-4 overflow-hidden">
+                    <img id="galleryImage" src="" alt="" class="w-full h-full object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-full h-full bg-gradient-to-br from-tech-blue/20 to-tech-cyan/20 rounded-lg sm:rounded-xl flex items-center justify-center" style="display: none;">
+                        <div class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 tech-gradient rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <h3 id="galleryTitle" class="text-lg sm:text-xl lg:text-2xl font-bold text-tech-cyan glow-text font-orbitron mb-2"></h3>
+                    <p id="gallerySubtitle" class="text-gray-300 font-orbitron text-xs sm:text-sm px-2">Trabajo realizado por Tecno Redes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <div class="fixed bottom-4 right-4 z-50">
+        <a href="https://wa.me/573001234567?text=Hola%20Tecno%20Redes,%20necesito%20ayuda%20con%20mi%20computador" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white rounded-full shadow-2xl transition-all duration-300 hover:scale-110 w-12 h-12 sm:w-14 sm:h-14">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+            </svg>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark-card py-8 sm:py-12 border-t border-tech-cyan/30">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8">
+                <div class="text-center sm:text-left">
+                    <div class="flex items-center justify-center sm:justify-start mb-3 sm:mb-4">
+                        <div class="h-6 sm:h-8 flex items-center justify-center">
+                            <img src="https://i.postimg.cc/FRcvZk9H/.-removebg-preview.png" alt="Tecno Redes Logo" class="h-full w-auto object-contain max-w-[100px] sm:max-w-[140px]" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="h-6 sm:h-8 px-2 sm:px-3 tech-gradient rounded-lg flex items-center justify-center" style="display: none;">
+                                <span class="text-xs sm:text-sm font-bold text-white font-orbitron tracking-wider">TECNO REDES SINÚ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 font-orbitron text-xs sm:text-sm">Expertos en mantenimiento, reparación y venta de computadores. Tu solución tecnológica de confianza.</p>
+                </div>
+                
+                <div class="text-center sm:text-left">
+                    <h4 class="text-base sm:text-lg font-bold text-tech-cyan mb-3 sm:mb-4 font-orbitron">Servicios</h4>
+                    <ul class="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
+                        <li>• Mantenimiento Preventivo</li>
+                        <li>• Reparación de Hardware</li>
+                        <li>• Formateo e Instalación</li>
+                        <li>• Eliminación de Virus</li>
+                        <li>• Servicio a Domicilio</li>
+                    </ul>
+                </div>
+                
+                <div class="text-center sm:text-left sm:col-span-2 lg:col-span-1">
+                    <h4 class="text-base sm:text-lg font-bold text-tech-cyan mb-3 sm:mb-4 font-orbitron">Contacto</h4>
+                    <ul class="space-y-1 sm:space-y-2 text-gray-400 text-xs sm:text-sm">
+                        <li>📞 +57 304 441 3402</li>
+                        <li>✉️ tecnoredessinu@gmail.com</li>
+                        <li>📍 Carrera 22 #8-8, Barrio Arenal, Lorica-Córdoba</li>
+                        <li>🕒 Lun - Sáb: 8:00 AM - 6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-tech-cyan/30 pt-6 sm:pt-8">
+                <!-- Social Media Icons -->
+                <div class="flex justify-center items-center space-x-3 sm:space-x-4 mb-4 sm:mb-6">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/tecnoredessinu/" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-blue-500/30">
+                        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    
+                    <!-- YouTube -->
+                    <a href="https://youtube.com/@tecnoredessinu" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 bg-red-600 hover:bg-red-700 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-red-500/30">
+                        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                    
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/tecno_redessinu/" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-purple-500/30">
+                        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    
+                    <!-- TikTok -->
+                    <a href="https://tiktok.com/@tecnoredessinu" target="_blank" rel="noopener noreferrer" class="w-8 h-8 sm:w-10 sm:h-10 bg-black hover:bg-gray-800 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-gray-500/30">
+                        <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="text-center">
+                    <p class="text-gray-400 font-orbitron text-xs sm:text-sm">&copy; <span id="currentYear"></span> Tecno Redes Sinú. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
